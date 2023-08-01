@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import fetch from "node-fetch";
 
 const EditTopicForm = ({ id, title, description }) => {
   const [newTitle, setNewTitle] = useState(title);

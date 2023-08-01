@@ -1,5 +1,6 @@
 import EditTopicForm from "@/components/EditTopicForm";
 import React from "react";
+import fetch from "node-fetch";
 
 const getTopicById = async (id) => {
   try {

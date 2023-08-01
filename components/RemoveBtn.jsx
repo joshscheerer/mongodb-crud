@@ -3,6 +3,7 @@
 import React from "react";
 import { HiOutlineTrash } from "react-icons/hi";
 import { useRouter } from "next/navigation";
+import fetch from "node-fetch";
 
 const RemoveBtn = ({ id }) => {
   const router = useRouter();

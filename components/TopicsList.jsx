@@ -2,6 +2,7 @@ import React from "react";
 import RemoveBtn from "./RemoveBtn";
 import Link from "next/link";
 import { HiPencilAlt } from "react-icons/hi";
+import fetch from "node-fetch";
 
 const getTopics = async () => {
   try {
